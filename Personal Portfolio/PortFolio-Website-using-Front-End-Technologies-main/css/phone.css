@@ -1,0 +1,77 @@
+/* CSS Reset */
+*{
+    margin:0;
+    padding:0;
+}
+/* Navigation Bar */
+
+/* About Section */
+#about .leftSection{
+    display: none;
+}
+
+/* Education Section */
+#education{
+    flex-wrap:wrap;
+}
+#education .box{
+    flex-basis:90%;
+    padding:0px;
+}
+
+#education #box3{
+    margin-bottom:80px;
+}
+
+/* Project Section */
+
+.projects{
+    flex-wrap:wrap;
+}
+.projects .project1{
+    width: 90%;
+}
+.projects .project2{
+    width:90%;
+}
+.projects .project3{
+    width:90%;
+}
+
+
+/* Contact Section */
+
+#seventhSection .contact .details{
+    flex-basis:60%;
+    height:40vh;
+    /* background:linear-gradient(to right, rgb(90, 230, 90), rgb(148, 255, 148)); */
+    background-color: rgb(32, 30, 30);
+}
+/* Form Section  */
+.eightSection .left{
+    display:none;
+}
+.eightSection .right input{
+    width: 60vw;
+}
+.eightSection .right textarea{
+    width: 60vw;
+}
+
+
+/* About Section */
+
+#about .rightSection{
+    flex-basis:70%;
+    width:90%;
+}
+
+#about h3{
+    text-align:center;
+}
+
+#about .rightSection .btn{
+    margin-top:20px;
+    width:200px;
+}
+
